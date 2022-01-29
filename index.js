@@ -4,7 +4,7 @@ const app =express();
 const fs =require("fs")
 
 
-const router = express.Router();
+
 const bodyparser = require("body-parser");
 
 app.use(bodyparser.json())
